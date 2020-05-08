@@ -1,0 +1,8 @@
+LD R0, 1
+LD R1, 2
+LD R2, 3
+LD R3, 4
+ADD R0, R1, @4
+LD R1, @4
+OR R2, R3, R0
+RST

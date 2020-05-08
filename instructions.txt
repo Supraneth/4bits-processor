@@ -1,0 +1,28 @@
+Instructions :
+
+Registre : R1, R2, R3, R4
+Memoire RAM : @0 - @f, valeur de l'adresse memoire en hexa
+
+LD [Ou enregistrer] [Valeur], on peut passer en parametres un registre, une adresse RAM ou une valeur en dur
+[AND, XOR, OR, ADD] [Valeur 1] [Valeur 2] [Ou enregistrer], on peut passer en parametres de valeur 1 et 2 un registre, une adresse RAM ou une valeur en dur, on peut stocker dans un registre ou dans la RAM
+RST [Element a vider], on peut passer en parametres un registre ou une adresse RAM
+
+
+
+Exemples : 
+
+LD R0, 1
+
+LD R1, 2
+
+LD R2, 3
+
+LD R3, 4
+
+ADD R0, R1, @4
+
+LD R1, @4
+OR R2, R3, R0
+
+RST
+
