@@ -12,6 +12,7 @@ constituants le processeur à savoir :
 - Le banc de registres
 - L’intégration d’une mémoire ROM
 - L’intégration d’une mémoire RAM
+
 Une fois crées, ces composants devront être assemblées pour répondre à un jeu d’instructions d’abord
 établi manuellement, puis en provenance d’instructions basiques tapés dans un fichier texte. Ce fichier
 texte contenant les instructions sera alors converti pour être chargé puis exploité par notre processeur.
